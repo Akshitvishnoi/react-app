@@ -26,24 +26,30 @@ const Footer = () => {
       <div className='lg:col-span-2 flex justify-between mt-6'>
         <div>
           <h6 className='font-medium text-black'>Solutions</h6>
+          <button>
           <ul>
             <li className='py-2 text-sm'>Analytics</li>
             <li className='py-2 text-sm'>Marketing</li>
             <li className='py-2 text-sm'>Commerce</li>
             <li className='py-2 text-sm'>Insights</li>
           </ul>
+          </button>
         </div>
         <div>
           <h6 className='font-medium text-black'>Support</h6>
+          <button>
           <ul>
             <li className='py-2 text-sm'>Pricing</li>
             <li className='py-2 text-sm'>Documentation</li>
             <li className='py-2 text-sm'>Guides</li>
             <li className='py-2 text-sm'>API Status</li>
           </ul>
+          </button>
         </div>
         <div>
           <h6 className='font-medium text-black'>Company</h6>
+          <button>
+         
           <ul>
             <li className='py-2 text-sm'>About</li>
             <li className='py-2 text-sm'>Blog</li>
@@ -51,14 +57,17 @@ const Footer = () => {
             <li className='py-2 text-sm'>Press</li>
             <li className='py-2 text-sm'>Careers</li>
           </ul>
+          </button>
         </div>
         <div>
           <h6 className='font-medium text-black'>Legal</h6>
+          <button>
           <ul>
             <li className='py-2 text-sm'>Claim</li>
             <li className='py-2 text-sm'>Policy</li>
             <li className='py-2 text-sm'>Terms</li>
           </ul>
+          </button>
         </div>
       </div>
     </div>
