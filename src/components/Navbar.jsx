@@ -11,6 +11,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       <h1 className='w-full text-3xl font-bold text-[black]'>AV Tech.</h1>
+      <button>
       <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
         <li className='p-4'>Company</li>
@@ -18,6 +19,7 @@ const Navbar = () => {
         <li className='p-4'>About</li>
         <li className='p-4'>Contact</li>
       </ul>
+      </button>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
       </div>
