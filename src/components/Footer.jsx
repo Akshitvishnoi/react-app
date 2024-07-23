@@ -13,7 +13,7 @@ const Footer = () => {
         <h1 className='w-full text-3xl font-bold text-black'>WsCube Tech.</h1>
         <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
        
-          <div className='flex justify-between gap-4 md:w-[75%] my-6 hover:scale-105 duration-500'> 
+          <div className='flex justify-between space-x-4 md:w-[75%] my-6 hover:scale-105 duration-500'> 
             <button> 
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
