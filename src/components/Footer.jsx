@@ -12,14 +12,16 @@ const Footer = () => {
       <div>
         <h1 className='w-full text-3xl font-bold text-black'>WsCube Tech.</h1>
         <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
-   <button>     
+       
           <div className='flex justify-between md:w-[75%] my-6 hover:scale-105 duration-500'> 
+            <button> 
           <FaFacebookSquare size={30} />
           <FaInstagram size={30} />
           <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />          
+          <FaGithubSquare size={30} />  
+            </button>      
         </div>
-   </button>
+ 
       </div>
       <div className='lg:col-span-2 flex justify-between mt-6'>
         <div>
